@@ -1,0 +1,24 @@
+Test,Term,Estimate,p / 95% CI,Sig
+H1a NegAffect ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Combined]",0.622,0.0156,yes
+H1a NegAffect ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Pessimistic]",0.778,0.0036,yes
+H1b PosAffect ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Combined]",-0.889,0.0055,yes
+H1b PosAffect ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Pessimistic]",-1.648,0.0,yes
+H2 WTD ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Pessimistic]",0.1,0.4242,
+H2 WTD ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Combined]",-0.067,0.5842,
+H2 WTD ~ Frame,"C(Condition, Treatment(reference='Optimistic'))[T.Control]",0.051,0.6728,
+H3 ProCons ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Pessimistic]",-0.159,0.4844,
+H3 ProCons ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Optimistic]",0.23,0.3116,
+H3 ProCons ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Control]",0.2,0.366,
+H3 PolEng ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Pessimistic]",0.049,0.868,
+H3 PolEng ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Optimistic]",0.137,0.6449,
+H3 PolEng ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Control]",0.357,0.2175,
+H3 WTD ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Pessimistic]",0.167,0.1692,
+H3 WTD ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Optimistic]",0.067,0.5842,
+H3 WTD ~ Frame (ref=Combined),"C(Condition, Treatment(reference='Combined'))[T.Control]",0.118,0.3183,
+H4 Pro-conservation via Negative Affect,indirect a*b,0.255,"[0.037, 0.642]",yes
+H4 Pro-conservation via Positive Affect,indirect a*b,-0.231,"[-0.620, 0.182]",
+H4 Political engagement via Negative Affect,indirect a*b,0.451,"[0.107, 0.941]",yes
+H4 Political engagement via Positive Affect,indirect a*b,-0.587,"[-1.189, -0.092]",yes
+H4 Willingness to donate via Negative Affect,indirect a*b,0.068,"[-0.046, 0.276]",
+H4 Willingness to donate via Positive Affect,indirect a*b,-0.051,"[-0.378, 0.201]",
+Ext chi2 Clicks~Cond,chi2,0.523,0.9137,
