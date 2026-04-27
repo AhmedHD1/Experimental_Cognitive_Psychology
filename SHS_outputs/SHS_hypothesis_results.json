@@ -1,0 +1,18 @@
+{
+  "H1_ANOVA": {
+    "F_stat": 20.467070239620565,
+    "p_value": 2.4222898098753414e-07,
+    "significant": true
+  },
+  "H1_Tukey": "  Multiple Comparison of Means - Tukey HSD, FWER=0.05   \n========================================================\n  group1      group2   meandiff p-adj lower upper reject\n--------------------------------------------------------\n  Combined     Control      nan   nan   nan   nan  False\n  Combined  Optimistic   1.5111   nan   nan   nan  False\n  Combined Pessimistic  -0.8697   nan   nan   nan  False\n   Control  Optimistic      nan   nan   nan   nan  False\n   Control Pessimistic      nan   nan   nan   nan  False\nOptimistic Pessimistic  -2.3808   nan   nan   nan  False\n--------------------------------------------------------",
+  "H2_ChiSquare": {
+    "chi2": 1.5372722672064776,
+    "p_value": 0.6736950095054453,
+    "significant": "False"
+  },
+  "H3_MannWhitney": {
+    "U_stat": NaN,
+    "p_value": NaN,
+    "significant": "False"
+  }
+}
