@@ -2,7 +2,7 @@
 
 **Course:** HUM-403 Experimental Cognitive Psychology I (EPFL, MA2)
 **Instructor:** Dr. Domicele Jonauskaite
-**Authors:** Miquel López, Enric Guasch, Desiré Díaz
+**Authors:** Miquel López, Enric Guasch, Desiré Díaz, Ahmed Hadwan
 **Date:** 21 December 2025
 
 A pre-registered-style replication and small extension of:
